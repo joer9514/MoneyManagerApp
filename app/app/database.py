@@ -10,8 +10,7 @@ mysql = {
     }
 }
 
-# conexion a base de datos a posgresql
-
+# Create PostgreSQL database connection
 postgresql = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
