@@ -5,7 +5,4 @@ from django.shortcuts import render
 
 
 def my_user(request):
-    data = {
-        'message': 'Estoy desde la vista usuario'
-    }
-    return render(request, 'index.html', data)
+    return render(request, "user/index.html")

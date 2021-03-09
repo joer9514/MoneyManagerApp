@@ -11,7 +11,7 @@ https://docs.djangoproject.com/en/3.1/ref/settings/
 """
 import os
 # from pathlib import Path
-from app.database import mysql
+from app.database import mysql, postgresql
 
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -47,6 +47,7 @@ INSTALLED_APPS = [
     'core.budget',
     'core.movement',
     'core.category',
+    'bootstrap4',
 ]
 
 MIDDLEWARE = [
@@ -83,8 +84,8 @@ WSGI_APPLICATION = 'app.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
 
-DATABASES = mysql
-# DATABASE = postgresql
+#DATABASES = mysql
+DATABASES = postgresql
 
 
 # Password validation

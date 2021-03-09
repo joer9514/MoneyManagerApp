@@ -9,3 +9,16 @@ mysql = {
         'PASSWORD': '',
     }
 }
+
+# conexion a base de datos a posgresql
+
+postgresql = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'moneydb',
+        'USER': 'M&M',
+        'PASSWORD': 'moneymanager',
+        'HOST': 'localhost',
+        'PORT': '5433',
+    }
+}
