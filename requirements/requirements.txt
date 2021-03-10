@@ -1,0 +1,8 @@
+asgiref==3.3.1
+bootstrap4==0.1.0
+Django==3.1.7
+freeze==3.0
+mysqlclient==2.0.3
+pytz==2021.1
+six==1.15.0
+sqlparse==0.4.1
