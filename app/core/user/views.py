@@ -1,8 +1,16 @@
 # from django.http import HttpResponse, JsonResponse
 from django.shortcuts import render
 
-# Create your views here.
+
+def register_user(request):
+    """
+
+    """
+    return render(request, "user/signup.html")
 
 
-def my_user(request):
-    return render(request, "user/index.html")
+def login_user(request):
+    """
+
+    """
+    return render(request, "user/login.html")

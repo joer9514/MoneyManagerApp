@@ -20,6 +20,7 @@ from core.index_page.views import *
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('user/', my_user),
+    path('signup/', register_user, name='signup'),
+    path('login/', login_user, name='login'),
     path('', index_page),
 ]
