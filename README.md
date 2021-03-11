@@ -1,7 +1,7 @@
 # 	MoneyManager
 ### An app from InnovApp
 
-<img src="https://ibb.co/yYDs3j2" align="middle" width="desired width" height="desired heigh">
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/mXmzxWp/MMLog.png" alt="MMLog" border="0"></a>
 
 
 ## Desciption 
