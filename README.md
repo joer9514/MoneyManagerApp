@@ -1,4 +1,5 @@
-# MoneyManagerApp
-This repository will house the Holberton School portfolio project. The project itself is based on the management of monetary resources of each individual to control their expenses, savings and/or investments.
+# 	MoneyManager
+###An app from InnovApp
 
-test.
+<a href="alternative text"><img src="https://ibb.co/yYDs3j2" align="middle" width="desired width" height="desired heigh"></a>
+## Desciption 
