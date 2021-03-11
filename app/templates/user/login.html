@@ -10,61 +10,62 @@
     <link rel="shortcut icon" href="{% static 'assets/images/fav.jpg' %}">
     <link rel="stylesheet" href="{% static 'assets/css/bootstrap.min.css' %}">
     <link rel="stylesheet" href="{% static 'assets/css/fontawsom-all.min.css' %}">
-    <link rel="stylesheet" type="text/css" href="{% static 'assets/css/login.css' %}" />
+    <link rel="stylesheet" type="text/css" href="{% static 'assets/css/login.css' %}"/>
 </head>
 
 <body>
-    <div class="container-fluid ">
+<div class="container-fluid ">
 
-                <div class=" no-pdding login-box">
-                    <div class="row no-margin w-100 bklmj">
-                        <div class="col-lg-6 col-md-6 log-det">
+    <div class=" no-pdding login-box">
+        <div class="row no-margin w-100 bklmj">
+            <div class="col-lg-6 col-md-6 log-det">
 
-                            <h2>Login</h2>
-
-
-                            <div class="row no-margin past">
-                                <p>Dont Have an Account? <span>Create your Account</span> </p>
-                            </div>
+                <h2>Login</h2>
 
 
-                            <div class="text-box-cont">
-                                <div class="input-group mb-3">
-
-                                    <input type="text" class="form-control" placeholder="Email" aria-label="email" aria-describedby="basic-addon1">
-                                </div>
-                                 <div class="input-group mb-3">
-
-                                    <input type="text" class="form-control" placeholder="Password" aria-label="password" aria-describedby="basic-addon1">
-                                </div>
-                                <div class="row no-margin">
-                                    <p class="forget-p">Forget Password ?</p>
-                                </div>
-                                <div class="right-bkij mb-3">
-                                    <a type="button" class="btn btn-success btn-round" href="">sign In</a>
-                                </div>
-                                <br>
-                                <div class="row linkoi">
-                                  <div class="col-sm-5">
-
-                                  </div>
-
-                                </div>
-                            </div>
+                <div class="row no-margin past">
+                    <p>Dont Have an Account? <span>Create your Account</span></p>
+                </div>
 
 
+                <div class="text-box-cont">
+                    <div class="input-group mb-3">
+
+                        <input type="text" class="form-control" placeholder="Email" aria-label="email"
+                               aria-describedby="basic-addon1">
+                    </div>
+                    <div class="input-group mb-3">
+
+                        <input type="text" class="form-control" placeholder="Password" aria-label="password"
+                               aria-describedby="basic-addon1">
+                    </div>
+                    <div class="row no-margin">
+                        <p class="forget-p">Forget Password ?</p>
+                    </div>
+                    <div class="right-bkij mb-3">
+                        <a type="button" class="btn btn-success btn-round" href="">sign In</a>
+                    </div>
+                    <br>
+                    <div class="row linkoi">
+                        <div class="col-sm-5">
 
                         </div>
-                        <div class="col-lg-6 col-md-6 box-de">
-                            <div class="ditk-inf">
-                                <h2 class="w-100">Welcome Back </h2>
-                                <p>Simply Create your account by <br> clicking the Signup Button</p>
-                                <a type="button" class="btn btn-outline-light" href="{% url 'signup' %}">Sign Up</a>
-                            </div>
-                        </div>
+
                     </div>
                 </div>
+
+
             </div>
+            <div class="col-lg-6 col-md-6 box-de">
+                <div class="ditk-inf">
+                    <h2 class="w-100">Welcome to community </h2>
+                    <p>Simply Create your account by <br> clicking the Signup Button</p>
+                    <a type="button" class="btn btn-outline-light" href="{% url 'signup' %}">Sign Up</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 </body>
 

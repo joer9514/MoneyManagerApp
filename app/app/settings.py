@@ -48,6 +48,7 @@ INSTALLED_APPS = [
     'core.movement',
     'core.category',
     'core.index_page',
+    'core.home_page',
     'bootstrap4',
 ]
 
