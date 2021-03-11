@@ -16,11 +16,22 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from core.user.views import *
+from core.saving.views import *
 from core.index_page.views import *
+from core.home_page.views import *
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('signup/', register_user, name='signup'),
     path('login/', login_user, name='login'),
-    path('', index_page),
+    path('', index_page, name='index'),
+    path('home', home_page, name='home'),
+    path('home/user/add', UserListView.as_view(), name='list_user'),
+    path('home/user/create', UserCreateView.as_view(), name='add_user'),
+    path('home/user/Update', UserUpdateView.as_view(), name='update_user'),
+    path('home/user/delete', UserDeleteView.as_view(), name='delete_user'),
+    path('home/saving/add', SavingListView.as_view(), name='list_saving'),
+    path('home/saving/create', SavingCreateView.as_view(), name='create_saving'),
+    path('home/saving/update', SavingUpdateView.as_view(), name='update_saving'),
+    path('home/saving/delete', SavingDeleteView.as_view(), name='delete_saving'),
 ]
