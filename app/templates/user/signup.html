@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="{% static 'assets/css/bootstrap.min.css' %}">
     <link rel="stylesheet" href="{% static 'assets/css/fontawsom-all.min.css' %}">
     <link rel="stylesheet" type="text/css" href="{% static 'assets/css/login.css' %}"/>
+    <link rel="icon" type="image/x-icon" href="{% static 'img/cerdo.png' %}"/>
 </head>
 
 <body>
@@ -27,54 +28,34 @@
                     <p>Dont Have an Account? <span>Create your Account</span></p>
                 </div>
 
+                <form method="post" class="card card-header">
 
-                <div class="text-box-cont">
-                    <div class="input-group mb-3">
+                    <div class="text-box-cont">
+                        {% csrf_token %}
 
-                        <input type="text" class="form-control" placeholder="Name" aria-label="name"
-                               aria-describedby="basic-addon1">
-                    </div>
-                    <div class="input-group mb-3">
-
-                        <input type="text" class="form-control" placeholder="Surname" aria-label="surname"
-                               aria-describedby="basic-addon1">
-                    </div>
-                    <div class="input-group mb-3">
-
-                        <input type="text" class="form-control" placeholder="Email" aria-label="email"
-                               aria-describedby="basic-addon1">
-                    </div>
-                    <div class="input-group mb-3">
-
-                        <input type="text" class="form-control" placeholder="Password" aria-label="password"
-                               aria-describedby="basic-addon1">
-                    </div>
-                    <div class="row no-margin">
-                        <p class="forget-p">Forget Password ?</p>
-                    </div>
-                    <div class="right-bkij mb-3">
-                        <a type="button" class="btn btn-success btn-round" href="">sign up</a>
-                    </div>
-                    <br>
-                    <div class="row linkoi">
-                        <div class="col-sm-5">
-
+                        {% if form.errors %}
+                        <div class="alert alert-danger alert-dismissible fade show">
+                            <h6>{{ form.errors }}</h6>
                         </div>
+                        {% endif %}
 
-                    </div>
-                </div>
-
+                        {{ form }}
+                        <button class="btn btn-primary btn-flat"><i class="fas fa-save"></i> Sign Up</button>
+                </form>
 
             </div>
-            <div class="col-lg-6 col-md-6 box-de">
-                <div class="ditk-inf">
-                    <h2 class="w-100">Welcome Back </h2>
-                    <p>Do you have an account? login here. <br> clicking the Sign In Button</p>
-                    <a type="button" class="btn btn-outline-light" href="{% url 'login' %}">Sign In</a>
-                </div>
+
+
+        </div>
+        <div class="col-lg-6 col-md-6 box-de">
+            <div class="ditk-inf">
+                <h2 class="w-100">Welcome Back </h2>
+
+                <a type="button" class="btn btn-outline-light" href="{% url 'login' %}">Sign In</a>
             </div>
         </div>
     </div>
+</div>
 </div>
 
 </body>
