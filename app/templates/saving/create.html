@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>{{ title }}</title>
+    <title>Create savings</title>
     <!-- Font Awesome Icons -->
     <link rel="stylesheet" href="{% static 'lib/adminlte-3.0.4/plugins/font-awesome-5.11.1/css/all.min.css' %}">
     <!-- Theme style -->
@@ -93,14 +93,13 @@
                     <div class="col-sm-6">
 
                         {% block title %}
-                        <h1 class="m-0 text-dark"> Home </h1>
+                        <h1 class="m-0 text-dark"> Create saving </h1>
                         {% endblock %}
 
                     </div>
                     <div class="col-sm-6">
                         <ol class="breadcrumb float-sm-right">
-                            <li class="breadcrumb-item"><a href="#">Home</a></li>
-                            <li class="breadcrumb-item"><a href="#">Layout</a></li>
+                            <li class="breadcrumb-item"><a href="{% url 'list_saving' %}">Back</a></li>
                         </ol>
                     </div>
                 </div>
@@ -108,8 +107,27 @@
         </div>
         <div class="content">
             <div class="container">
+                <div class=" card card-default">
+                    <div class="card card-title">
+                        <div class="form-group">
+                            <form method="post" class="card card-header">
+                                {% csrf_token %}
 
-                <!-- Here-->
+                                {% if form.errors %}
+                                <div class="alert alert-danger alert-dismissible fade show">
+                                    {{ form.errors }}
+                                </div>
+                                {% endif %}
+
+                                {{ form }}
+
+
+                                <br>
+                                <button class="btn btn-primary btn-flat"><i class="fas fa-save"></i> Save</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
 
             </div>
         </div>
@@ -122,9 +140,9 @@
             Anything you want
         </div>
         <!-- Default to the left -->
-        <strong>Copyright &copy; 2021 <a href="https://www.holbertonschool.com">Money Manager</a>.</strong> All rights reserved.
+        <strong>Copyright &copy; 2021 <a href="https://holbertonschool.com">Money Manager</a>.</strong> All rights
+        reserved.
     </footer>
 </div>
 </body>
 </html>
-
