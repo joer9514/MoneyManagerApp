@@ -18,6 +18,8 @@ from django.urls import path
 from core.user.views import *
 from core.saving.views import *
 from core.category.views import *
+from core.budget.views import *
+from core.movement.views import *
 from core.index_page.views import *
 from core.home_page.views import *
 
@@ -41,4 +43,14 @@ urlpatterns = [
     path('home/category/create/', CategoryCreateView.as_view(), name='create_category'),
     path('home/category/update<int:pk>/', CategoryUpdateView.as_view(), name='update_category'),
     path('home/category/delete<int:pk>/', CategoryDeleteView.as_view(), name='delete_category'),
+
+    path('home/budget/add/', BudgetListView.as_view(), name='list_budget'),
+    path('home/budget/create/', BudgetCreateView.as_view(), name='create_budget'),
+    path('home/budget/update<int:pk>/', BudgetUpdateView.as_view(), name='update_budget'),
+    path('home/budget/delete<int:pk>/', BudgetDeleteView.as_view(), name='delete_budget'),
+
+    path('home/movement/add/', MovementListView.as_view(), name='list_movement'),
+    path('home/movement/create/', MovementCreateView.as_view(), name='create_movement'),
+    path('home/movement/update<int:pk>/', MovementUpdateView.as_view(), name='update_movement'),
+    path('home/movement/delete<int:pk>/', MovementDeleteView.as_view(), name='delete_movement'),
 ]
