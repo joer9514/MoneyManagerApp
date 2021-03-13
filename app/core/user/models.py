@@ -24,4 +24,4 @@ class User(models.Model):
         """
         Representation of our user object
         """
-        return self.name_user
+        return '{} {}'.format(self.name_user, self.surname_user)
