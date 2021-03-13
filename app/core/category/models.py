@@ -22,4 +22,4 @@ class Category(models.Model):
         """
         Representation of our category object
         """
-        return self.name_category
+        return '{}'.format(self.name_category)

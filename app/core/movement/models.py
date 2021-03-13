@@ -10,6 +10,7 @@ class Movement(models.Model):
     id_movement = models.AutoField(primary_key=True, auto_created=True, unique=True, null=False, blank=False)
     id_budget = models.ForeignKey(Budget, on_delete=models.CASCADE, null=False, blank=False,
                                   verbose_name='Budget')
+    name_movement = models.CharField(max_length=50, null=False, blank=False)
     month_movement = models.DateField(default=datetime.now, null=False, blank=False)
     value_movement = models.DecimalField(default=0.00, null=False, blank=False, max_digits=15, decimal_places=2)
     description_movement = models.CharField(max_length=250, null=True, blank=True)
@@ -27,4 +28,4 @@ class Movement(models.Model):
         """
         Representation of our movement object
         """
-        return self.id_movement
+        return '{}'.format(self.name_movement)

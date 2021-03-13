@@ -12,6 +12,7 @@ class Budget(models.Model):
     id_user = models.ForeignKey(User, on_delete=models.CASCADE, null=False, blank=False, verbose_name='User')
     id_category = models.ForeignKey(Category, on_delete=models.CASCADE, null=False, blank=False,
                                     verbose_name='Category')
+    name_budget = models.CharField(max_length=50, null=False, blank=False)
     month_budget = models.DateField(default=datetime.now, null=False, blank=False)
     value_budget = models.DecimalField(default=0.00, null=False, blank=False, max_digits=15, decimal_places=2)
 
@@ -28,4 +29,4 @@ class Budget(models.Model):
         """
         Representation of our budget object
         """
-        return self.id_budget
+        return '{}'.format(self.name_budget)

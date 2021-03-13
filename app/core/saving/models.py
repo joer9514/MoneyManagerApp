@@ -12,6 +12,7 @@ class Saving(models.Model):
     id_user = models.ForeignKey(User, on_delete=models.CASCADE, null=False, blank=False, verbose_name='User')
     id_movement = models.ForeignKey(Movement, on_delete=models.CASCADE, null=False, blank=False,
                                     verbose_name='Movement')
+    name_saving = models.CharField(max_length=50, null=False, blank=False)
     month_saving = models.DateField(default=datetime.now, null=False, blank=False)
     account_status = models.BooleanField(default=True, null=False, blank=False)
     account_balance = models.DecimalField(default=0.00, max_digits=15, decimal_places=2)
@@ -29,4 +30,4 @@ class Saving(models.Model):
         """
         Representation of our saving object
         """
-        return self.id_saving
+        return '{}'.format(self.name_saving)
