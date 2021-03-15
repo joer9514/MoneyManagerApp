@@ -1,12 +1,14 @@
 # from django.http import HttpResponse, JsonResponse
-from django.shortcuts import render
+# from django.shortcuts import render
+from core.saving.views import *
+from core.budget.views import *
+from django.views.generic import *
 
 
-def home_page(request):
-    """
-    Render index page of our application
-    """
-    data = {
-        'usuarios': 'test'
-    }
-    return render(request, "home_page/home.html", data)
+class HomeListView(ListView):
+    model = Budget
+    template_name = 'home_page/home.html'
+
+    # @method_decorator(login_required)
+    def dispatch(self, request, *args, **kwargs):
+        return super().dispatch(request, *args, **kwargs)

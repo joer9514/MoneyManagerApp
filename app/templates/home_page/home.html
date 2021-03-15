@@ -51,7 +51,8 @@
                             </li>
                             <li><a href="{% url 'list_budget' %}" class="dropdown-item"><i
                                     class="fas fa-calculator"></i> Budgets</a></li>
-                            <li><a href="{% url 'list_movement' %}" class="dropdown-item"><i class="fas fa-money-bill-alt"></i> Movements</a>
+                            <li><a href="{% url 'list_movement' %}" class="dropdown-item"><i
+                                    class="fas fa-money-bill-alt"></i> Movements</a>
                             </li>
                             <li><a href="{% url 'list_saving' %}" class="dropdown-item"><i
                                     class="fas fa-piggy-bank"></i> Savings</a></li>
@@ -77,41 +78,88 @@
         <div class="content-header">
             <div class="container">
                 <div class="row mb-2">
-                    <div class="col-sm-6">
+                    <!-- Here-->
 
-                        {% block title %}
-                        <h1 class="m-0 text-dark"> Home </h1>
-                        {% endblock %}
 
+                    <!-- Contenido -->
+                    {% for u in object_list %}
+                    <div class="row">
+
+
+                        <!-- /.col -->
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="info-box">
+                                <span class="info-box-icon bg-blue"><i class="fa fa-google-plus"></i></span>
+
+                                <div class="info-box-content">
+                                    <h5><span class="info-box-text">Category</span></h5>
+
+                                    <span class="info-box-number">{{u.id_category}} </span>
+
+                                </div>
+                                <!-- /.info-box-content -->
+                            </div>
+                            <!-- /.info-box -->
+                        </div>
+                        <!-- /.col -->
+
+                        <!-- fix for small devices only -->
+                        <div class="clearfix visible-sm-block"></div>
+
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="info-box">
+                                <span class="info-box-icon bg-green"><i class="ion ion-ios-cart-outline"></i></span>
+
+                                <div class="info-box-content">
+                                    <h5><span class="info-box-text">Budget</span></h5>
+                                    <span class="info-box-number">{{ u.value_budget }}</span>
+                                </div>
+                                <!-- /.info-box-content -->
+                            </div>
+                            <!-- /.info-box -->
+                        </div>
+                        <!-- /.col -->
+
+
+                        <div class="col-md-5 col-sm-6 col-xs-12">
+                            <div class="info-box">
+                                <span class="info-box-icon bg-yellow"><i class="ion ion-ios-people-outline"></i></span>
+
+                                <div class="info-box-content">
+                                    <span class="info-box-text">Month</span>
+                                    <span class="info-box-number">{{ u.month_budget }}</span>
+                                </div>
+                                <!-- /.info-box-content -->
+                            </div>
+                            <!-- /.info-box -->
+                        </div>
+
+
+                        <!-- /.col -->
                     </div>
-                    <div class="col-sm-6">
-                        <ol class="breadcrumb float-sm-right">
-                            <li class="breadcrumb-item"><a href="{% url 'home' %}">Home</a></li>
-                        </ol>
-                    </div>
+                    {% endfor %}
                 </div>
             </div>
-        </div>
-        <div class="content">
-            <div class="container">
 
-                <!-- Here-->
-
-            </div>
         </div>
     </div>
-    <!-- Footer -->
-    <!-- Main Footer -->
-    <footer class="main-footer">
-        <!-- To the right -->
-        <div class="float-right d-none d-sm-inline">
-            Anything you want
-        </div>
-        <!-- Default to the left -->
-        <strong>Copyright &copy; 2021 <a href="https://www.holbertonschool.com">Money Manager</a>.</strong> All rights
-        reserved.
-    </footer>
 </div>
+<div class="content">
+
+</div>
+
+<!-- Footer -->
+<!-- Main Footer -->
+<footer class="main-footer">
+    <!-- To the right -->
+    <div class="float-right d-none d-sm-inline">
+        Anything you want
+    </div>
+    <!-- Default to the left -->
+    <strong>Copyright &copy; 2021 <a href="https://www.holbertonschool.com">Money Manager</a>.</strong> All rights
+    reserved.
+</footer>
+
 </body>
 </html>
 
