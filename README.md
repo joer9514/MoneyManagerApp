@@ -63,15 +63,22 @@ Our product intents to help user with all the  possible finantial aspects, organ
 
 *Here is where each of the movements made by the user is evidenced, geneting a record the wi saved by the platform.*
 
+## 📋 Folder 
 
-## Installation 
+|   **Folder**   |   **Description**   |
+| -------------- | --------------------- |
+| [app](./app) | The 'app' folder contains the files of the application models and their main configuration. |
+| [env](./env) | The env' folder is where the environment variable that executes the application is located.  |
+| [requirements ](./requirements) | In the requirements folder there is a txt document with the installations needed to run the application, it is installed through the console by executing 'pip freeze -r requirements.txt'. |
 
-* git Clone
-* cd Lading_MoneyManager
+
+## 🚀 Installation 
+
+* git Clone https://github.com/joer9514/MoneyManagerApp
 
 
-# Authors:
- * [Jhonnyer Otalvaro](https://github.com/Jhonierk)
- * [Karen Campo](https://github.com/KarenCampo777)
- * [Jose Espinoza](https://github.com/joer9514)
+# ✒️ Authors:
+ * Jhonnyer Otalvaro - [Github](https://github.com/Jhonierk) / [Twitter](https://twitter.com/JhonnyerOtalva2)  
+ * Karen Campo - [Github](https://github.com/KarenCampo777) / [Twitter](https://twitter.com/KarenCa96752258)  
+ * Jose Espinoza - [Github](https://github.com/joer9514) / [Twitter](https://twitter.com/joer9514)  
 
