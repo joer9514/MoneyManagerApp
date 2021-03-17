@@ -83,6 +83,22 @@ p {
 .container-fluid {
   padding: 0px; }
 
+.policy{
+  text-align: left;
+}
+
+.policy h6{
+  color:  #474b46;
+}
+
+.policy p{
+  color:  #474b46;
+}
+
+.policy .TheText{
+  color:  #6f736e ;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: "mouse-500", Arial, Helvetica, sans-serif; }
 
