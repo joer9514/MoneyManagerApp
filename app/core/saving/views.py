@@ -1,6 +1,9 @@
 # from django.http import HttpResponse, JsonResponse
 # from django.shortcuts import render
+from django.contrib.auth.decorators import login_required
 from django.urls import reverse_lazy
+from django.utils.decorators import method_decorator
+
 from core.saving.models import Saving
 from django.views.generic import *
 # from django.utils.decorators import method_decorator
@@ -63,12 +66,20 @@ class SavingListView(ListView):
     model = Saving
     template_name = 'saving/saving.html'
 
+    @method_decorator(login_required)
+    def dispatch(self, request, *args, **kwargs):
+        return super().dispatch(request, *args, **kwargs)
+
 
 class SavingCreateView(CreateView):
     model = Saving
     form_class = SavingForm
     template_name = 'saving/create.html'
     success_url = reverse_lazy('list_saving')
+
+    @method_decorator(login_required)
+    def dispatch(self, request, *args, **kwargs):
+        return super().dispatch(request, *args, **kwargs)
 
 
 class SavingUpdateView(UpdateView):
@@ -77,9 +88,17 @@ class SavingUpdateView(UpdateView):
     template_name = 'saving/update.html'
     success_url = reverse_lazy('list_saving')
 
+    @method_decorator(login_required)
+    def dispatch(self, request, *args, **kwargs):
+        return super().dispatch(request, *args, **kwargs)
+
 
 class SavingDeleteView(DeleteView):
     model = Saving
     form_class = SavingForm
     template_name = 'saving/delete.html'
     success_url = reverse_lazy('list_saving')
+
+    @method_decorator(login_required)
+    def dispatch(self, request, *args, **kwargs):
+        return super().dispatch(request, *args, **kwargs)

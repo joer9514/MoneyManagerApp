@@ -5,12 +5,13 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title> Free Stylish Login Page Website Template | Smarteyeapps.com</title>
+    <title> Login Panel </title>
 
     <link rel="shortcut icon" href="{% static 'assets/images/fav.jpg' %}">
     <link rel="stylesheet" href="{% static 'assets/css/bootstrap.min.css' %}">
     <link rel="stylesheet" href="{% static 'assets/css/fontawsom-all.min.css' %}">
     <link rel="stylesheet" type="text/css" href="{% static 'assets/css/login.css' %}"/>
+    <link rel="icon" type="image/x-icon" href="{% static 'img/cerdo.png' %}">
 </head>
 
 <body>
@@ -19,42 +20,39 @@
     <div class=" no-pdding login-box">
         <div class="row no-margin w-100 bklmj">
             <div class="col-lg-6 col-md-6 log-det">
-
                 <h2>Login</h2>
 
-
-                <div class="row no-margin past">
-                    <p>Dont Have an Account? <span>Create your Account</span></p>
-                </div>
-
-
-                <div class="text-box-cont">
-                    <div class="input-group mb-3">
-
-                        <input type="text" class="form-control" placeholder="Email" aria-label="email"
-                               aria-describedby="basic-addon1">
+                <form method="post">
+                    {%csrf_token%}
+                    <div class="row no-margin past">
+                        <p>Dont Have an Account? <span>Create your Account</span></p>
                     </div>
-                    <div class="input-group mb-3">
 
-                        <input type="text" class="form-control" placeholder="Password" aria-label="password"
-                               aria-describedby="basic-addon1">
-                    </div>
-                    <div class="row no-margin">
-                        <p class="forget-p">Forget Password ?</p>
-                    </div>
-                    <div class="right-bkij mb-3">
-                        <a type="button" class="btn btn-success btn-round" href="">sign In</a>
-                    </div>
-                    <br>
-                    <div class="row linkoi">
-                        <div class="col-sm-5">
+
+                    <div class="text-box-cont">
+                        <div class="input-group mb-3">
+
+                            {{form.username}}
+                        </div>
+                        <div class="input-group mb-3">
+
+                            {{form.password}}
+                        </div>
+                        <div class="row no-margin">
+                            <p class="forget-p">Forget Password ?</p>
+                        </div>
+                        <div class="right-bkij mb-3">
+                            <button type="submit" class="btn btn-success btn-round" href="">sign In</button>
+                        </div>
+                        <br>
+                        <div class="row linkoi">
+                            <div class="col-sm-5">
+
+                            </div>
 
                         </div>
-
                     </div>
-                </div>
-
-
+                </form>
             </div>
             <div class="col-lg-6 col-md-6 box-de">
                 <div class="ditk-inf">

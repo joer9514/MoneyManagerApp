@@ -26,7 +26,8 @@ from core.home_page.views import *
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('signup/', RegisterCreateUser.as_view(), name='signup'),
-    path('login/', login_user, name='login'),
+    path('login/', LoginUserView.as_view(), name='login'),
+    path('logout/', LogoutView.as_view(), name='logout'),
     path('', index_page, name='index'),
     path('home/', HomeListView.as_view(), name='home'),
     path('home/user/add/', UserListView.as_view(), name='list_user'),

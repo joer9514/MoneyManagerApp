@@ -1,6 +1,9 @@
 # from django.http import HttpResponse, JsonResponse
 # from django.shortcuts import render
+from django.contrib.auth.decorators import login_required
 from django.urls import reverse_lazy
+from django.utils.decorators import method_decorator
+
 from core.movement.models import Movement
 from django.views.generic import *
 # from django.utils.decorators import method_decorator
@@ -49,7 +52,7 @@ class MovementListView(ListView):
     model = Movement
     template_name = 'movement/movement.html'
 
-    # @method_decorator(login_required)
+    @method_decorator(login_required)
     def dispatch(self, request, *args, **kwargs):
         return super().dispatch(request, *args, **kwargs)
 
@@ -60,6 +63,10 @@ class MovementCreateView(CreateView):
     template_name = 'movement/create.html'
     success_url = reverse_lazy('list_movement')
 
+    @method_decorator(login_required)
+    def dispatch(self, request, *args, **kwargs):
+        return super().dispatch(request, *args, **kwargs)
+
 
 class MovementUpdateView(UpdateView):
     model = Movement
@@ -67,9 +74,17 @@ class MovementUpdateView(UpdateView):
     template_name = 'movement/update.html'
     success_url = reverse_lazy('list_movement')
 
+    @method_decorator(login_required)
+    def dispatch(self, request, *args, **kwargs):
+        return super().dispatch(request, *args, **kwargs)
+
 
 class MovementDeleteView(DeleteView):
     model = Movement
     form_class = MovementForm
     template_name = 'movement/delete.html'
     success_url = reverse_lazy('list_movement')
+
+    @method_decorator(login_required)
+    def dispatch(self, request, *args, **kwargs):
+        return super().dispatch(request, *args, **kwargs)
