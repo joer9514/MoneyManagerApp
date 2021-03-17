@@ -28,7 +28,10 @@
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto my-2 my-lg-0">
-
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#services">Services</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">View</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#US">Who are we?</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
                     </ul>
                 </div>
@@ -54,32 +57,178 @@
             </div>
         </header>
 
+        <!-- About-->
+        <section class="page-section bg-primary" id="about">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 text-center">
+                        <h2 class="text-white mt-0">About App</h2>
+                        <hr class="divider light my-4" />
+                        <p class="text-white-50 mb-4">This application was developed for the public that needs a better order in their finances, keep a control of their transactions and expenses of their accounts having a monthly and annual history of all their income and expenses.</p>
+                        <a class="btn btn-light btn-xl js-scroll-trigger" href="#services">Get Started!</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Services-->
+        <section class="page-section" id="services">
+            <div class="container">
+                <h2 class="text-center mt-0">Service</h2>
+                <hr class="divider my-4" />
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 text-center">
+                        <div class="mt-5">
+                            <i class="fas fa-hand-holding-usd text-primary fa-5x" ></i>
+                            <h3 class="h4 mb-2">Easy Manege Money</h3>
+                            <p class="text-muted mb-0">Our application offers a good management of your money.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 text-center">
+                        <div class="mt-5">
+                            <i class="fas fa-4x fa-laptop-code text-primary mb-4"></i>
+                            <h3 class="h4 mb-2">Update</h3>
+                            <p class="text-muted mb-0">The application will be constantly updated taking into account the needs of the users.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 text-center">
+                        <div class="mt-5">
+                            <i class="fas fa-4x fa-globe text-primary mb-4"></i>
+                            <h3 class="h4 mb-2">Connectivity</h3>
+                            <p class="text-muted mb-0">The application will have constant connectivity so that users can use the application without worrying about the server going down.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 text-center">
+                        <div class="mt-5">
+                            <i class="fas fa-4x fa-heart text-primary mb-4"></i>
+                            <h3 class="h4 mb-2">Easy to Use</h3>
+                            <p class="text-muted mb-0">The application will provide an easy to use interface for any type of audience.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Portfolio-->
+        <div id="portfolio">
+                       <br>
+                       <br>
+                       <br>
+                       <center><h2>Visualization of the application </h2></center>
+                       <br>
+                       <br>
+                            <center><img class="img-fluid" src="{% static 'img/example.jpg' %}" alt="" /></center>
+                        <br>
+                       <br>
+                </div>
+            </div>
+        </div>
+        <!-- Call to action-->
+        <section class="page-section bg-dark text-white">
+            <div class="container text-center">
+                <h2 class="mb-4">Do you want to become a Money Manager user?</h2>
+                <a class="btn btn-light btn-xl" href="#">Click Here!</a>
+            </div>
+        </section>
+        <!---about us --->
+        <section class="page-section bg-primary" id="US">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 text-center">
+                        <h2 class="text-white mt-0">Who are we?</h2>
+                        <hr class="divider light my-4" />
+
+                        <div class="caja">
+                        <img class="img-fluidUs" src="{% static 'img/Eljose.png' %}" alt="" />
+                        <h5> JOSE OMAR ESPINOSA </h5>
+                         <p>   
+                        Roles:
+                        <ul>
+                            <li>Deployment</li>
+                            <li>DEVops</li>
+                            <li>Databases(Backend)</li>
+                        </ul>
+                        He is great for this role due to his  BD enthusiasm, with a big interest on application deployment and servers with a background in system technology
+                        </p>
+                        Follow Us: <br>
+                        <a href="https://github.com/joer9514" target="_blank">
+                        <img src=https://img.shields.io/badge/github-%2324292e.svg?&style=for-the-badge&logo=github&logoColor=white alt=github style="margin-bottom: 5px;" /></a>
+                        <a href="https://twitter.com/joer9514" target="_blank">
+                        <img src=https://img.shields.io/badge/twitter-%2300acee.svg?&style=for-the-badge&logo=twitter&logoColor=white alt=twitter style="margin-bottom: 5px;" />
+                        </a>
+                        </div>
+
+                        <div class="caja">
+                        <img class="img-fluidUsj" src="{% static 'img/yo.png' %}" alt="" />
+                        <h5> JORGE JHONNYER OTALVARO </h5>
+                         <p>   
+                        Roles:
+                        <ul>
+                            <li>API's</li>
+                            <li>Backend</li>
+                            <li>Testing</li>
+                        </ul>
+                        A developer with back-end skills who is very interested in improving in the APIs development and that has potential to improve in the testing area is the perfect match for these types of tasks. 
+                        </p>
+                        Follow Us: <br>
+                        <a href="https://github.com/Jhonierk" target="_blank">
+                        <img src=https://img.shields.io/badge/github-%2324292e.svg?&style=for-the-badge&logo=github&logoColor=white alt=github style="margin-bottom: 5px;" /></a>
+                        <a href="https://twitter.com/JhonnyerOtalva2" target="_blank">
+                        <img src=https://img.shields.io/badge/twitter-%2300acee.svg?&style=for-the-badge&logo=twitter&logoColor=white alt=twitter style="margin-bottom: 5px;" />
+                        </a>
+                        </div>
+
+                        <div class="caja">
+                        <img class="img-fluidUs" src="{% static 'img/Lakaren.png' %} " alt="" />
+                         <h5> KAREN CAMPO </h5>
+                         <p>   
+                        Roles:
+                        <ul>
+                            <li>Voice Group</li>
+                            <li>Documentation</li>
+                            <li>Frontend</li>
+                        </ul>
+                        This student is the ideal candidate for the presentation. She is a vocal technician specialized in voice projection and modulation, proficient in English with more than 16 years of experience in translation and tutoring, shows remarkable scripting skills and an undeniable intuition for visual arts 
+                        </p>
+                        Follow Us: <br>
+                        <a href="https://github.com/KarenCampo777" target="_blank">
+                        <img src=https://img.shields.io/badge/github-%2324292e.svg?&style=for-the-badge&logo=github&logoColor=white alt=github style="margin-bottom: 5px;" /></a>
+                        <a href="https://twitter.com/KarenCa96752258" target="_blank">
+                        <img src=https://img.shields.io/badge/twitter-%2300acee.svg?&style=for-the-badge&logo=twitter&logoColor=white alt=twitter style="margin-bottom: 5px;" />
+                        </a>
+                        </div>
+
+
+                        <p class="text-white-50 mb-4">We are students of the renowned HOLBERTON SCHOOL software academy.    </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <!-- Contact-->
         <section class="page-section" id="contact">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-8 text-center">
-                        <h2 class="mt-0">Let's Get In Touch!</h2>
+                        <h2 class="mt-0">Contact</h2>
                         <hr class="divider my-4" />
-                        <p class="text-muted mb-5">Ready to start your next project with us? Give us a call or send us an email and we will get back to you as soon as possible!</p>
+                        <p class="text-muted mb-5">Do you want to know more information about the application or contact the developers directly?</p>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-lg-4 ml-auto text-center mb-5 mb-lg-0">
                         <i class="fas fa-phone fa-3x mb-3 text-muted"></i>
-                        <div>+57 3175912255</div>
+                        <div>+57 3155912255</div>
                     </div>
                     <div class="col-lg-4 mr-auto text-center">
                         <i class="fas fa-envelope fa-3x mb-3 text-muted"></i>
                         <!-- Make sure to change the email address in BOTH the anchor text and the link target below!-->
-                        <a class="d-block" href="mailto:contact@yourwebsite.com">moneymanager@yourwebsite.com</a>
+                        <a class="d-block" href="mailto:contact@yourwebsite.com">MoneyManager@outlook.com</a>
                     </div>
                 </div>
             </div>
         </section>
         <!-- Footer-->
         <footer class="bg-light py-5">
-            <div class="container"><div class="small text-center text-muted">Holberton School © 2021 </div></div>
+            <div class="container"><div class="small text-center text-muted">Holberton © 2021 - InnovApp</div></div>
         </footer>
         <!-- Bootstrap core JS-->
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
