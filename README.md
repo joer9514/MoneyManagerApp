@@ -1,28 +1,31 @@
-# 	MoneyManagerApp
-### 🤳🏼 An app from InnovApp
+# 	MoneyManagerApp <a href="https://imgbb.com/"><img src="https://i.ibb.co/CvWmpVB/8Gbs.gif" alt="8Gbs" border="0"></a>
+## 🤳🏼 An app from InnovApp
 
 <a href="https://imgbb.com/"><img src="https://i.ibb.co/mXmzxWp/MMLog.png" alt="MMLog" border="0"></a>
 
 ## 📑Introduction
 
-<a href="https://ibb.co/VCFd1Gb"><img src="https://i.ibb.co/8xyJCwG/MMRe.jpg" alt="MMRe" border="0"></a><br /><a target='_blank' href='https://es.imgbb.com/'>mejor host de imagenes</a><br />
+<a href="https://ibb.co/VCFd1Gb"><img src="https://i.ibb.co/8xyJCwG/MMRe.jpg" alt="MMRe" border="0"></a><br /><a target='_blank' href='https://es.imgbb.com/'>
 
 This is a WebApp thought to help users with the management of finances. We know that there is a problem, a big problem; we don't have a financial education and that is why we experience failure in the trying of savings. MoneyManager offers you a solution in the financial success,now you can create projects based on a system of categories, track your expenses day by day, month by month and per year having all of your income and expenses controlled. 
 
 Despite the wide range of tools of this type, most of them are full of functionalities that complicate their usage, leaving aside the simple and filling users with information that on a daily basis is not  helpful for users and their goals. Then, the need arises to simplify the personal account management process, which nowadays takes a long time and does not facilitate decision-making due to its complexity to consolidate the information.
 With the widespread availability of Git and cloud-computing environments, continuous deployment  means having an arbitrary number of parallel environments, non-linear workflows, and cheap, disposable. There are many possible tools to build a Git-and-Cloud hosting and application deployment workflow. Some are self-hosted while others are a hosted service.. The major drawback of the Git-and-Cloud model is the complexity of the underlying tooling that enables it, and that complexity.
 
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/3zbzBcF/fyHG.gif" alt="fyHG" border="0"></a>
+
 
 
 ### 🌎 Deployed Site
 
-* [MoneyManagerApp](https://herokuapptestuno.herokuapp.com/)
+###### [MoneyManagerApp](https://herokuapptestuno.herokuapp.com/)
+
 <a href="https://ibb.co/8YC1qgF"><img src="https://i.ibb.co/jJNnmk7/MMDesk.jpg" alt="MMDesk" border="0"></a>
 <a href="https://ibb.co/cJRGjMs"><img src="https://i.ibb.co/VVb7srk/MML.jpg" alt="MML" border="0"></a>
 
 ### 🧍🏽‍♀️ 🧍🏽 🧍🏽‍♂️ Team's LinkedIn
 
-<a href="https://ibb.co/k2CJ7MG"><img src="https://i.ibb.co/XxRDQVW/team.png" alt="team" border="0"></a><br /><a target='_blank' href='https://es.imgbb.com/'>insertar imagenes en fotos gratis</a><br />
+<a href="https://ibb.co/k2CJ7MG"><img src="https://i.ibb.co/XxRDQVW/team.png" alt="team" border="0"></a><br /><a target='_blank' href='https://es.imgbb.com/'>
 
 * [Jose Omar](https://www.linkedin.com/in/jose-omar-espinosa-66aa621a1/)
 * [Karen](https://www.linkedin.com/in/karen-campo-7862011a1/)
@@ -114,6 +117,33 @@ Our product intents to help user with all the  possible finantial aspects, organ
 [![Alt text for your video](https://img.youtube.com/vi/1fTHCdWwUGI/0.jpg)](http://www.youtube.com/watch?v=1fTHCdWwUGI)
 
  click on the image ☝☝☝
+ 
+ ## 🦾 Challenges
+
+###### Potential  incompatibility: 
+One challenge we faced was the version of Django, pip and python that we had installed on our computers; which generated some conflicts at the beginning.
+
+###### Problem solution:
+The solution was to move our project to a machine with an operating system (Windows) and thus with the help and / or ease that provides us with this OS, install the same version and adapt it to our project.
+
+###### To confuse attributes:
+At the time of making the queries to visualize the data stored in our database, they were not being displayed correctly. The problem was solved when we realized that we were confused in the attributes of the query, which was a bit funny.
+
+
+###### Non-technical challenge:
+One member of the team got sick. This could have happened to anyone, and it obviously represents a threat in the production of the development of the project, especially if we think on the deadline.
+We also consider as a challenge to coincide in the different times that we all manage
+
+###### Collaboration/Communication
+
+We work as a team in a competent manner, we do meetings to plan, discuss and contribute to the development processes of the work and activities proposed for the development of our application.
+
+###### Challenges and/or success of the team 
+
+To install a Django virtual environment and its tools dealing with different operating systems such as Linux and Windows, since each environment (OS) has different names.
+
+Understand how the MVT order used by Django works. 
+
 
 # ✒️ Authors:
  * Jhonnyer Otalvaro - [Github](https://github.com/Jhonierk) / [Twitter](https://twitter.com/JhonnyerOtalva2)  
