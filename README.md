@@ -5,7 +5,12 @@
 
 ## Introduction
 
-This is a WebApp thought to help users with the management of finances. We know that there is a problem, a big problem; we do'nt have a financial education and that is why we experience failure in 
+This is a WebApp thought to help users with the management of finances. We know that there is a problem, a big problem; we don't have a financial education and that is why we experience failure in the trying of savings. MoneyManager offers you a solution in the financial success,now you can create projects based on a system of categories, track your expenses day by day, month by month and per year having all of your income and expenses controlled. 
+
+Despite the wide range of tools of this type, most of them are full of functionalities that complicate their use, leaving aside the simple and filling users with information that on a daily basis is not  helpful for users and their goals. Then, the need arises to simplify the personal account management process, which nowadays takes a long time and does not facilitate decision-making due to its complexity to consolidate the information.
+Wiith the widespread availability of Git and cloud-computing environments, continuous deployment  means having an arbitrary number of parallel environments, non-linear workflows, and cheap, disposable. There are many possible tools to build a Git-and-Cloud hosting and application deployment workflow. Some are self-hosted while others are a hosted service.. The major drawback of the Git-and-Cloud model is the complexity of the underlying tooling that enables it, and that complexity.
+
+
 
 ##### Deployed Site
 
