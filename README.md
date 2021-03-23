@@ -1,4 +1,4 @@
-# 	MoneyManagerApp <a href="https://imgbb.com/"><img src="https://i.ibb.co/CvWmpVB/8Gbs.gif" alt="8Gbs" border="0"></a>
+# 	MoneyManagerApp <a href="https://imgbb.com/"></a>
 ## 🤳🏼 An app from InnovApp
 
 <a href="https://imgbb.com/"><img src="https://i.ibb.co/mXmzxWp/MMLog.png" alt="MMLog" border="0"></a>
@@ -158,7 +158,7 @@ Find out more about our project in the following URL: 👉
 # ✒️ Authors:
  * Jhonnyer Otalvaro - [Github](https://github.com/Jhonierk) / [Twitter](https://twitter.com/JhonnyerOtalva2)  
  * Karen Campo - [Github](https://github.com/KarenCampo777) / [Twitter](https://twitter.com/KarenCa96752258)  
- * Jose Espinoza - [Github](https://github.com/joer9514) / [Twitter](https://twitter.com/joer9514)  
+ * Jose Espinosa - [Github](https://github.com/joer9514) / [Twitter](https://twitter.com/joer9514)  
 
 
 ## ✒️ License
