@@ -3,6 +3,18 @@
 
 <a href="https://imgbb.com/"><img src="https://i.ibb.co/mXmzxWp/MMLog.png" alt="MMLog" border="0"></a>
 
+## Introduction
+
+This is a WebApp thought to help users with the management of finances. We know that there is a problem, a big problem; we do'nt have a financial education and that is why we experience failure in 
+
+##### Deployed Site
+
+* [MoneyManagerApp](https://herokuapptestuno.herokuapp.com/)
+##### Team's LinkedIn
+
+* [Jose Omar](https://www.linkedin.com/in/jose-omar-espinosa-66aa621a1/)
+* [Karen](https://www.linkedin.com/in/karen-campo-7862011a1/)
+* [Jorge Jhonnyer](https://www.linkedin.com/in/jhonnyer-otalvaro-696b9014b/)
 
 ## Desciption 
 
@@ -75,6 +87,14 @@ Our product intents to help user with all the  possible finantial aspects, organ
 ## 🚀 Installation 
 
 * git Clone https://github.com/joer9514/MoneyManagerApp
+* Create virtual env with **python -m virtualenv (virtualenv name)**
+* Activate virtualenv with *activate*. For windows you must specify the path **env/Scripts/activate**. For Linux the path is **source env/bin/activate**
+* Install requirements with **pip install -r requirements/requirements.txt**
+* go to the folder **app** with command **cd**
+* Run migrations with command **python manage.py makemigrations**
+* Run command **python manage.py migrate**
+* Now we can run the server for our project with **python manage.py runserver**
+* Good to go. Enjoy MoneyManager!
 
 
 # ✒️ Authors:
