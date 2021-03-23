@@ -108,8 +108,7 @@ Our product intents to help user with all the  possible finantial aspects, organ
 
 [![Alt text for your video](https://img.youtube.com/vi/1fTHCdWwUGI/0.jpg)](http://www.youtube.com/watch?v=1fTHCdWwUGI)
 
-      click on the image ![image](https://user-images.githubusercontent.com/58444461/112197931-9989ac00-8bda-11eb-8fb5-ac82230a48a3.png)
-
+ click on the image ![image](https://user-images.githubusercontent.com/58444461/112197931-9989ac00-8bda-11eb-8fb5-ac82230a48a3.png)
 
 # ✒️ Authors:
  * Jhonnyer Otalvaro - [Github](https://github.com/Jhonierk) / [Twitter](https://twitter.com/JhonnyerOtalva2)  
