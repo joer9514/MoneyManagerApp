@@ -13,6 +13,8 @@ Including another URLconf
     1. Import the include() function: from django.urls import include, path
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
+
+##inputs needed to implement the urls paths for each templet
 from django.contrib import admin
 from django.urls import path
 from core.user.views import *
@@ -23,7 +25,12 @@ from core.movement.views import *
 from core.index_page.views import *
 from core.home_page.views import *
 
+
+#Here we add the views of the templets,
 urlpatterns = [
+#The syntax of the views is as follows:
+#path(name of  rute/, name of funtcion of class, name for use within templates)
+#We use function-based classes to transform them into a view with the as_view() method. 
     path('admin/', admin.site.urls),
     path('signup/', RegisterCreateUser.as_view(), name='signup'),
     path('login/', LoginUserView.as_view(), name='login'),

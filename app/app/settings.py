@@ -86,6 +86,7 @@ WSGI_APPLICATION = 'app.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
 
+#These are the configurations to adapt the database we used for the development of the project:
 #DATABASES = mysql
 DATABASES = postgresql
 
@@ -133,6 +134,7 @@ STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'static'),
 ]
 
+#This specifies the path to be accessed after logging in.
 LOGIN_REDIRECT_URL = 'home'
 LOGOUT_REDIRECT_URL = 'login'
 LOGIN_URL = 'login'
