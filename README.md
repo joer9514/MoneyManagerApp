@@ -3,7 +3,7 @@
 
 <a href="https://imgbb.com/"><img src="https://i.ibb.co/mXmzxWp/MMLog.png" alt="MMLog" border="0"></a>
 
-## 📑Introduction
+## 📑Introduction <a href="https://imgbb.com/"><img src="https://i.ibb.co/3zbzBcF/fyHG.gif" alt="fyHG" border="0"></a>
 
 <a href="https://ibb.co/VCFd1Gb"><img src="https://i.ibb.co/8xyJCwG/MMRe.jpg" alt="MMRe" border="0"></a><br /><a target='_blank' href='https://es.imgbb.com/'>
 
@@ -11,8 +11,6 @@ This is a WebApp thought to help users with the management of finances. We know 
 
 Despite the wide range of tools of this type, most of them are full of functionalities that complicate their usage, leaving aside the simple and filling users with information that on a daily basis is not  helpful for users and their goals. Then, the need arises to simplify the personal account management process, which nowadays takes a long time and does not facilitate decision-making due to its complexity to consolidate the information.
 With the widespread availability of Git and cloud-computing environments, continuous deployment  means having an arbitrary number of parallel environments, non-linear workflows, and cheap, disposable. There are many possible tools to build a Git-and-Cloud hosting and application deployment workflow. Some are self-hosted while others are a hosted service.. The major drawback of the Git-and-Cloud model is the complexity of the underlying tooling that enables it, and that complexity.
-
-<a href="https://imgbb.com/"><img src="https://i.ibb.co/3zbzBcF/fyHG.gif" alt="fyHG" border="0"></a>
 
 
 
@@ -22,6 +20,7 @@ With the widespread availability of Git and cloud-computing environments, contin
 
 <a href="https://ibb.co/8YC1qgF"><img src="https://i.ibb.co/jJNnmk7/MMDesk.jpg" alt="MMDesk" border="0"></a>
 <a href="https://ibb.co/cJRGjMs"><img src="https://i.ibb.co/VVb7srk/MML.jpg" alt="MML" border="0"></a>
+
 
 ### 🧍🏽‍♀️ 🧍🏽 🧍🏽‍♂️ Team's LinkedIn
 
@@ -37,9 +36,11 @@ With the widespread availability of Git and cloud-computing environments, contin
 This project was born in the womb of an academic final project for Holberton School. What seemed to be a race for life has became a method of solving financial problems.
 Our product intents to help user with all the  possible finantial aspects, organized into categories. 
 
+
 ### 📊 Data Modeling
 
 <a href="https://ibb.co/vw6ZWGw"><img src="https://i.ibb.co/7Yd2D5Y/Data-Modeling.png" alt="Data-Modeling" border="0"></a>
+
 
 #### 🗂 Our Entity Relational Model contains:
 
@@ -91,6 +92,7 @@ Our product intents to help user with all the  possible finantial aspects, organ
 
 *Here is where each of the movements made by the user is evidenced, geneting a record the wi saved by the platform.*
 
+
 ## 📋 Folder 
 
 |   **Folder**   |   **Description**   |
@@ -112,11 +114,13 @@ Our product intents to help user with all the  possible finantial aspects, organ
 * Now we can run the server for our project with **python manage.py runserver**
 * Good to go. Enjoy MoneyManager!
 
+
 ## 🧑‍🔧 Usage
 
 [![Alt text for your video](https://img.youtube.com/vi/1fTHCdWwUGI/0.jpg)](http://www.youtube.com/watch?v=1fTHCdWwUGI)
 
  click on the image ☝☝☝
+ 
  
  ## 🦾 Challenges
 
@@ -143,6 +147,11 @@ We work as a team in a competent manner, we do meetings to plan, discuss and con
 To install a Django virtual environment and its tools dealing with different operating systems such as Linux and Windows, since each environment (OS) has different names.
 
 Understand how the MVT order used by Django works. 
+
+## Blog Post
+
+Find out more about our project in the following URL: 👇
+**https://www.linkedin.com/pulse/moneymanager-karen-campo/?published=t**
 
 
 # ✒️ Authors:
