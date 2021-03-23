@@ -104,7 +104,7 @@ Our product intents to help user with all the  possible finantial aspects, organ
 * Now we can run the server for our project with **python manage.py runserver**
 * Good to go. Enjoy MoneyManager!
 
-## Usage
+## 🚀 Usage
 
 [![Alt text for your video](https://img.youtube.com/vi/1fTHCdWwUGI/0.jpg)](http://www.youtube.com/watch?v=1fTHCdWwUGI)
 
@@ -114,4 +114,10 @@ Our product intents to help user with all the  possible finantial aspects, organ
  * Jhonnyer Otalvaro - [Github](https://github.com/Jhonierk) / [Twitter](https://twitter.com/JhonnyerOtalva2)  
  * Karen Campo - [Github](https://github.com/KarenCampo777) / [Twitter](https://twitter.com/KarenCa96752258)  
  * Jose Espinoza - [Github](https://github.com/joer9514) / [Twitter](https://twitter.com/joer9514)  
+
+
+## Licence
+
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/6RHF6C8/RMpublicdomain.png" alt="RMpublicdomain" border="0"></a>
+No copy write protection.
 
