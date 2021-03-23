@@ -7,19 +7,22 @@
 
 This is a WebApp thought to help users with the management of finances. We know that there is a problem, a big problem; we don't have a financial education and that is why we experience failure in the trying of savings. MoneyManager offers you a solution in the financial success,now you can create projects based on a system of categories, track your expenses day by day, month by month and per year having all of your income and expenses controlled. 
 
-Despite the wide range of tools of this type, most of them are full of functionalities that complicate their use, leaving aside the simple and filling users with information that on a daily basis is not  helpful for users and their goals. Then, the need arises to simplify the personal account management process, which nowadays takes a long time and does not facilitate decision-making due to its complexity to consolidate the information.
-Wiith the widespread availability of Git and cloud-computing environments, continuous deployment  means having an arbitrary number of parallel environments, non-linear workflows, and cheap, disposable. There are many possible tools to build a Git-and-Cloud hosting and application deployment workflow. Some are self-hosted while others are a hosted service.. The major drawback of the Git-and-Cloud model is the complexity of the underlying tooling that enables it, and that complexity.
+Despite the wide range of tools of this type, most of them are full of functionalities that complicate their usage, leaving aside the simple and filling users with information that on a daily basis is not  helpful for users and their goals. Then, the need arises to simplify the personal account management process, which nowadays takes a long time and does not facilitate decision-making due to its complexity to consolidate the information.
+With the widespread availability of Git and cloud-computing environments, continuous deployment  means having an arbitrary number of parallel environments, non-linear workflows, and cheap, disposable. There are many possible tools to build a Git-and-Cloud hosting and application deployment workflow. Some are self-hosted while others are a hosted service.. The major drawback of the Git-and-Cloud model is the complexity of the underlying tooling that enables it, and that complexity.
 
 
 
 ##### Deployed Site
 
 * [MoneyManagerApp](https://herokuapptestuno.herokuapp.com/)
+
+
 ##### Team's LinkedIn
 
 * [Jose Omar](https://www.linkedin.com/in/jose-omar-espinosa-66aa621a1/)
 * [Karen](https://www.linkedin.com/in/karen-campo-7862011a1/)
 * [Jorge Jhonnyer](https://www.linkedin.com/in/jhonnyer-otalvaro-696b9014b/)
+
 
 ## Desciption 
 
@@ -30,7 +33,7 @@ Our product intents to help user with all the  possible finantial aspects, organ
 
 <a href="https://ibb.co/vw6ZWGw"><img src="https://i.ibb.co/7Yd2D5Y/Data-Modeling.png" alt="Data-Modeling" border="0"></a>
 
-###### Our Entity Relational Model contains:
+#### Our Entity Relational Model contains:
 
 **1. Table User:**
 
@@ -100,6 +103,9 @@ Our product intents to help user with all the  possible finantial aspects, organ
 * Run command **python manage.py migrate**
 * Now we can run the server for our project with **python manage.py runserver**
 * Good to go. Enjoy MoneyManager!
+
+## Usage
+https://drive.google.com/file/d/1IW0F4--4Y3I3R6kCoZcZBM83DIvTWr8g/view?usp=sharing
 
 
 # ✒️ Authors:
