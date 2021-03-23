@@ -106,7 +106,7 @@ Our product intents to help user with all the  possible finantial aspects, organ
 
 ## Usage
 
-[![Alt text for your video](https://img.youtube.com/vi/1fTHCdWwUGI/3.jpg)](http://www.youtube.com/watch?v=1fTHCdWwUGI)
+[![Alt text for your video](https://img.youtube.com/vi/1fTHCdWwUGI/0.jpg)](http://www.youtube.com/watch?v=1fTHCdWwUGI)
 
 # ✒️ Authors:
  * Jhonnyer Otalvaro - [Github](https://github.com/Jhonierk) / [Twitter](https://twitter.com/JhonnyerOtalva2)  
