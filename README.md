@@ -4,6 +4,7 @@
 <a href="https://imgbb.com/"><img src="https://i.ibb.co/mXmzxWp/MMLog.png" alt="MMLog" border="0"></a>
 
 ## Introduction
+<a href="https://ibb.co/cJRGjMs"><img src="https://i.ibb.co/VVb7srk/MML.jpg" alt="MML" border="0"></a>
 
 This is a WebApp thought to help users with the management of finances. We know that there is a problem, a big problem; we don't have a financial education and that is why we experience failure in the trying of savings. MoneyManager offers you a solution in the financial success,now you can create projects based on a system of categories, track your expenses day by day, month by month and per year having all of your income and expenses controlled. 
 
@@ -14,10 +15,16 @@ With the widespread availability of Git and cloud-computing environments, contin
 
 ##### Deployed Site
 
+<a href="https://ibb.co/1Zy3Kg2"><img src="https://i.ibb.co/PxXR4LC/MMHome.jpg" alt="MMHome" border="0"></a>
+<a href="https://ibb.co/VCFd1Gb"><img src="https://i.ibb.co/8xyJCwG/MMRe.jpg" alt="MMRe" border="0"></a><br /><a target='_blank' href='https://es.imgbb.com/'>mejor host de imagenes</a><br />
+
+
 * [MoneyManagerApp](https://herokuapptestuno.herokuapp.com/)
 
 
 ##### Team's LinkedIn
+
+<a href="https://ibb.co/k2CJ7MG"><img src="https://i.ibb.co/XxRDQVW/team.png" alt="team" border="0"></a><br /><a target='_blank' href='https://es.imgbb.com/'>insertar imagenes en fotos gratis</a><br />
 
 * [Jose Omar](https://www.linkedin.com/in/jose-omar-espinosa-66aa621a1/)
 * [Karen](https://www.linkedin.com/in/karen-campo-7862011a1/)
@@ -116,7 +123,7 @@ Our product intents to help user with all the  possible finantial aspects, organ
  * Jose Espinoza - [Github](https://github.com/joer9514) / [Twitter](https://twitter.com/joer9514)  
 
 
-## Licence
+## License
 
 <a href="https://imgbb.com/"><img src="https://i.ibb.co/6RHF6C8/RMpublicdomain.png" alt="RMpublicdomain" border="0"></a>
 No copy write protection.
