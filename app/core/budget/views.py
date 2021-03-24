@@ -64,9 +64,9 @@ class BudgetCreateView(CreateView):
     model = Budget
     #indicates in which form (class) are the objects that are needed for creation
     form_class = BudgetForm
-    #El templete donde  que se usara para los regisros que el usuario va a ingresar
-    template_name = 'budget/create.html'
     #The templete where it will be used for the registers that the user is going to enter.
+    template_name = 'budget/create.html'
+    #With reverze_lazy once the data is validated I redirect you to the page that has been specified. 
     success_url = reverse_lazy('list_budget')
 
 """
