@@ -107,38 +107,34 @@ Our product intents to help user with all the  possible finantial aspects, organ
 
 * git Clone https://github.com/joer9514/MoneyManagerApp
 * Create virtual env with:
-* ´´´
-* python -m virtualenv (virtualenv name)
-* '''
+```bash
+python -m virtualenv (virtualenv name)
+```
 * Activate virtualenv with *activate*. For windows you must specify the path:
-* ´´´
-* env/Scripts/activate
-* ´´´
-* ´´´
+```bash
+env/Scripts/activate
+```
 * For Linux the path is:
-* ´´´
-* ´´´
-* source env/bin/activate
-* ´´´
-* ´´´
+```bash
+source env/bin/activate
+```
 * Install requirements with:
-* ´´´
-* ´´´
-* pip install -r requirements/requirements.txt
-* ´´´
+```bash
+pip install -r requirements/requirements.txt
+```
 * go to the folder **app** with command **cd**
 * Run migrations with command:
-´´´
+```bash
 python manage.py makemigrations
-´´´
+```
 * and Run command
-´´´
+```bash
 python manage.py migrate
-´´´
+```
 * Now we can run the server for our project with:
-´´´
+```bash
 python manage.py runserver
-´´´
+```
 * Good to go. Enjoy MoneyManager!
 
 
